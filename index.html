@@ -1,23 +1,180 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>INT: Unit 4 Quiz Project</title>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <title>Buzzfeed Quiz: Which Slime Are You?
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
         <script defer src="script.js"></script>
     </head>
     <body>
         <div class="title">
-            <h1>Your Quiz Title Here!</h1>
-        </div>
-        <div class="questions">
-            <h4>User Question #1</h4>
-            <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-06/24/16/asset/815a5287257c/anigif_sub-buzz-4360-1624553394-78_preview.gif?output-quality=auto&output-format=auto&downsize=360:*">
-            <h4>User Question #2</h4>
-            <img src="https://img.buzzfeed.com/buzzfeed-static/static/2018-11/19/17/asset/buzzfeed-prod-web-05/anigif_sub-buzz-18467-1542667455-1.gif">
-        </div>
+            <h1>Which Slime Are You</h1>
+            <p> Yes, even my obsession for Minecraft reveals in my project!</p>
+
+        <div class="questionSection">
+            <!-- first question -->
+            <div class="question">
+                <h4> Out of all options, which would you choose? <br> (if you're vegetarian pretend it's tofu or somehthing AND if you're allergic, pretend you're not)</h4> 
+            <div class="card-row">
+                <!-- rice question -->
+                <div class="card">
+                    <h2>simple white rice</h2>
+                    <p> simple and basic, but for good reasons.</p>
+                    <img src="rice.png" alt="rice bowl"> <br>
+                    <button data-character="ventiSlime,blueSlime,killerRabbit,panda"> rice </button>
+                </div> 
+                <!-- dino question -->
+                <div class="card">
+                    <h2>dino nuggets</h2>
+                    <p> a classic childish meal, super cute</p>
+                    <img src="dino_nuggets.png" alt="dino nuggets"> <br>
+                    <button data-character="miniSlime">dino nuggets</button>
+                </div> 
+                <!-- shrimp question -->
+                <div class="card">
+                    <h2>shrimp scampi</h2>
+                    <p> sophisticated but family meal, love me some shrimp</p>
+                    <img src="shrimp.png" alt="shrimp scampi"> <br>
+                    <button data-character="ventiSlime, panda">shrimp scampi</button>
+                </div> 
+                <!-- sweet potato chili question -->
+                <div class="card">
+                    <h2>sweet potato chili</h2>
+                    <p> effortless white family meal </p>
+                    <img src="sweet_potato_chili.png" alt="sweet potato chili"> <br>
+                    <button data-character="panda, blueSlime">sweet potato chili</button>
+                </div> 
+            </div>
+            </div>
+
+            <!-- second question -->
+            <div class="question">
+                <h4> pick a silly color </h4>
+            <div class="card-row">
+                <!-- pink question -->  
+                <div class="card">
+                    <h2>snugglepuss</h2>
+                    <p> a soft, light pink color</p>
+                    <img src="snugglepuss.png" alt="snugglepuss"> <br>
+                    <button data-character="ventiSlime,panda">snugglepuss </button>
+                </div>
+
+                <!-- green question -->
+                <div class="card">
+                    <h2> drakes neck </h2>
+                    <p> a light, pastel green color</p>
+                    <img src="drakes_neck.png" alt="drake's neck"> <br>
+                    <button data-character="miniSlime"> drake's neck </button>
+                </div>
+
+                <!-- smalt question -->
+                <div class="card">
+                    <h2> smalt </h2>
+                    <p> a deep, dark blue color</p> 
+                    <img src="smalt.png" alt="smalt"> <br>
+                    <button data-character="panda,miniSlime">smalt </button>
+                </div>
+
+                <!-- lusty gallant question -->
+                <div class="card">
+                    <h2> lusty gallant </h2>
+                    <p> a light, pastel blue color</p>
+                    <img src="lusty_gallant.png" alt="lusty gallant"> <br>
+                    <button data-character="blueSlime">lusty gallant </button>
+                </div>
+
+                <!-- killer rabbit question -->
+                <div class="card">
+                    <h2> killer rabbit </h2>
+                    <p> a bloody red color</p>
+                    <img src="blood_red.png" alt="killer rabbit"> <br>
+                    <button data-character="killerRabbit">bloody red </button>
+                </div>
+            </div>
+            </div>
+
+            <!-- third question -->
+            <div class="question">
+                <h4> pick a time </h4>
+            <div class="card-row">
+                <!-- 12 am question -->
+                <div class="card">
+                    <h2> 12 am </h2>
+                    <p> the witching hour, when all the spooky things come out</p>
+                    <img src="midnight.jpg" alt="midnight"> <br>
+                    <button data-character="panda,miniSlime,blueSlime"> 12 am </button>
+                </div>
+
+                <!-- 3 am question -->
+                <div class="card">
+                    <h2> 3 am </h2>
+                    <p> the time when all the spooky things are at their peak</p>
+                    <img src="witching hour.png" alt="witching hour"> <br>
+                    <button data-character="blueSlime,killerRabbit"> 3 am </button>
+                </div>
+
+                <!-- 8 am question -->
+                <div class="card">
+                    <h2> 8 am </h2>
+                    <p> the time when the sun is rising and the day is starting</p>
+                    <img src="morning.jpg" alt="morning time"> <br>
+                    <button data-character="panda"> 8 am </button>
+                </div>
+
+                <!-- 4 pm question -->
+                <div class="card">
+                    <h2> 4 pm </h2>
+                    <p> the time when the sun is setting and the day is ending</p>
+                    <img src="afternoon.jpg" alt="afternoon time"> <br>
+                    <button data-character="ventiSlime,miniSlime"> 4 pm </button>
+                </div>
+            </div>
+            </div>
+
+            <!-- fourth question -->
+            <div class="question">
+                <h4> be fruity, which do you prefer? </h4>
+            <div class="card-row">
+                <!-- mango question -->
+                <div class="card">
+                    <h2> mango </h2>
+                    <p> a sweet, tropical fruit</p>
+                    <img src="mangoes.png" alt="mango"> <br>
+                    <button data-character="ventiSlime,killerRabbit"> mango </button>
+                </div>
+                
+                <!-- strawberry question -->
+                <div class="card">
+                    <h2> strawberry </h2>
+                    <p> a sweet, red fruit</p>
+                    <img src="strawberry.jpg" alt="strawberry that looks like a cat"> <br>
+                    <button data-character="ventiSlime,miniSlime"> strawberry </button>
+                </div>
+
+                <!-- blueberry question -->
+                <div class="card">
+                    <h2> blueberry </h2>
+                    <p> a sweet, blue fruit</p>
+                    <img src="blueberries.jpg" alt="blueberry"> <br>
+                    <button data-character="ventiSlime,blueSlime"> blueberry </button>
+                </div>
+
+                <!-- banana question -->
+                <div class="card">
+                    <h2> banana </h2>
+                    <p> a sweet, yellow fruit</p>
+                    <img src="bananas.jpg" alt="bananas"> <br>
+                    <button data-character="miniSlime,panda"> banana </button>
+                </div>
+            </div>
+            </div>
+
         <div class="result">
             This is where the user will see their quiz result.
         </div>
+
     </body>
 </html>

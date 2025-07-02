@@ -1,36 +1,87 @@
-/* General body styling */
+html {
+    background-color: #E072A4;
+}
+
+.question button {
+    background-color: #d94c8c;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font: 5px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(180, 34, 121, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f9f9f9;
+    width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.questionSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.question img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #c43e7a;
+    
+}
+
+h4 {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+
 body {
-    font-family: 'Oswald', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ecd5df;
+    color: #4240a9;
     line-height: 1.6;
     padding: 20px;
 }
 
 /* Title section styling */
-.title h1 {
+.title {
     text-align: center;
-    color: #333;
-}
-
-/* Questions section styling */
-.questions {
-    background-color: #fff;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.questions h4 {
-    color: #666;
-}
-
-.questions img {
-    width: 100%; /* Make images responsive */
-    height: auto;
-    border-radius: 8px;
-    margin-top: 10px;
+    color: #4240a9;
 }
 
 /* Result section styling */
@@ -41,4 +92,9 @@ body {
     margin-top: 20px;
     border-radius: 8px;
     font-size: 1.2em;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(180, 34, 121, 0.2);
+  cursor: pointer;
 }
